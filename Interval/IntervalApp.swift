@@ -13,7 +13,7 @@ struct IntervalApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AddTrainingView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
